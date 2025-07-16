@@ -1,0 +1,28 @@
+{
+  "IdleEC2Instances": [
+    {
+      "InstanceId": "i-05ed273f6dd47164f",
+      "State": "stopped",
+      "Tags": [
+        {
+          "Key": "Name",
+          "Value": "IdleTestInstance"
+        }
+      ]
+    }
+  ],
+  "UnattachedVolumes": [
+    {
+      "VolumeId": "vol-0f928d7bce5ed43cb",
+      "Size": 1
+    }
+  ],
+  "UnusedEIPs": [
+    "52.72.112.60"
+  ],
+  "EmptyS3Buckets": [
+    "finops-bucket-117f965e",
+    "finops-config-logs-9b5952e4",
+    "idle-resources-demo-2f1f63ab"
+  ]
+}
